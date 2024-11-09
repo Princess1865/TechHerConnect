@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHerConnect - Women in Tech Community</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="container">
+            <div class="nav-left">
+                <a href="/" class="logo">
+                    <i data-lucide="code" class="logo-icon"></i>
+                    TechHerConnect
+                </a>
+            </div>
+            <div class="nav-center">
+                <div class="search-global">
+                    <i data-lucide="search"></i>
+                    <input type="text" placeholder="Search anything...">
+                </div>
+            </div>
+            <div class="nav-right">
+                <button class="icon-button" aria-label="Messages">
+                    <i data-lucide="message-circle"></i>
+                    <span class="notification-badge">3</span>
+                </button>
+                <button class="icon-button" aria-label="Notifications">
+                    <i data-lucide="bell"></i>
+                    <span class="notification-badge">5</span>
+                </button>
+                <div class="user-menu">
+                    <img src="https://placekitten.com/100/100" alt="User Avatar" class="avatar">
+                    <div class="user-menu-dropdown">
+                        <div class="user-info">
+                            <img src="https://placekitten.com/100/100" alt="User Avatar">
+                            <div>
+                                <h4>Sarah Connor</h4>
+                                <p>sarah@example.com</p>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="#"><i data-lucide="user"></i> Profile</a>
+                        <a href="#"><i data-lucide="settings"></i> Settings</a>
+                        <a href="#"><i data-lucide="help-circle"></i> Help Center</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="logout"><i data-lucide="log-out"></i> Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-container">
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>Menu</h3>
+                <a href="#" class="sidebar-link active">
+                    <i data-lucide="home"></i> Home
+                </a>
+                <a href="#" class="sidebar-link">
+                    <i data-lucide="users"></i> Community
+                </a>
+                <a href="#" class="sidebar-link">
+                    <i data-lucide="calendar"></i> Events
+                </a>
+                <a href="#" class="sidebar-link">
+                    <i data-lucide="book-open"></i> Resources
+                </a>
+                <a href="#" class="sidebar-link">
+                    <i data-lucide="message-square"></i> Forums
+                </a>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Your Network</h3>
+                <a href="#" class="sidebar-link">
+                    <i data-lucide="users"></i> Connections
+                </a>
+                <a href="#" class="sidebar-link">
+                    <i data-lucide="star"></i> Mentors
+                </a>
+                <a href="#" class="sidebar-link">
+                    <i data-lucide="briefcase"></i> Jobs
+                </a>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="premium-promo">
+                    <i data-lucide="award" class="premium-icon"></i>
+                    <h4>Upgrade to Pro</h4>
+                    <p>Get access to exclusive features and content</p>
+                    <button class="upgrade-btn">Upgrade Now</button>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="page-header">
+                <h1>Welcome Back, Sarah! 👋</h1>
+                <p>Here's what's happening in your tech community</p>
+            </div>
+
+            <div class="quick-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>1,234</h3>
+                        <p>Community Members</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="calendar"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>12</h3>
+                        <p>Upcoming Events</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="message-square"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>89</h3>
+                        <p>Active Discussions</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="briefcase"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>45</h3>
+                        <p>Job Opportunities</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-grid">
+                <div class="main-section">
+                    <div class="section-header">
+                        <h2>Featured Events</h2>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <div class="events-grid">
+                        <!-- Event cards here -->
+                    </div>
+
+                    <div class="section-header">
+                        <h2>Latest Discussions</h2>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <div class="discussions-list">
+                        <!-- Discussion items here -->
+                    </div>
+                </div>
+
+                <aside class="side-section">
+                    <div class="card">
+                        <h3>Recommended Mentors</h3>
+                        <!-- Mentor recommendations here -->
+                    </div>
+
+                    <div class="card">
+                        <h3>Trending Topics</h3>
+                        <!-- Trending topics here -->
+                    </div>
+                </aside>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
