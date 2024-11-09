@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHerConnect</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TechHerConnect</h1>
+            <div class="user-actions">
+                <button class="icon-button" aria-label="Notifications">
+                    <i data-lucide="bell"></i>
+                </button>
+                <div class="avatar">
+                    <img src="https://placekitten.com/32/32" alt="User Avatar">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="tabs">
+            <button class="tab-button active" data-tab="forum">
+                <i data-lucide="message-square"></i> Forum
+            </button>
+
+            <button class="tab-button" data-tab="events">
+                <i data-lucide="calendar" src="pages/events.html"></i> Events
+            </button>
+
+            <button class="tab-button" data-tab="mentorship">
+                <i data-lucide="users"></i> Mentorship
+            </button>
+        </div>
+
+        <div class="tab-content active" id="forum">
+            <div class="search-bar">
+                <input type="text" placeholder="Search discussions...">
+                <button>
+                    <i data-lucide="search"></i> Search
+                </button>
+            </div>
+            <div class="card">
+                <h2>Latest Discussions</h2>
+                <ul class="discussion-list">
+                    <li>
+                        <div class="avatar">
+                            <img src="https://placekitten.com/40/40" alt="User Avatar">
+                        </div>
+                        <div class="discussion-info">
+                            <h3>Overcoming Imposter Syndrome</h3>
+                            <p>Started by Jane Doe • 2h ago • 15 replies</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="https://placekitten.com/41/41" alt="User Avatar">
+                        </div>
+                        <div class="discussion-info">
+                            <h3>Best Coding Bootcamps</h3>
+                            <p>Started by Alice Smith • 4h ago • 8 replies</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="https://placekitten.com/42/42" alt="User Avatar">
+                        </div>
+                        <div class="discussion-info">
+                            <h3>Negotiating Salary Tips</h3>
+                            <p>Started by Emma Johnson • 1d ago • 22 replies</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="tab-content" id="events">
+            <div class="card">
+                <h2>Upcoming Events</h2>
+                <ul class="event-list">
+                    <li>
+                        <div class="event-icon">
+                            <i data-lucide="calendar"></i>
+                        </div>
+                        <div class="event-info">
+                            <h3>Women in Tech Conference</h3>
+                            <p>June 15, 2023 • Virtual</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="event-icon">
+                            <i data-lucide="calendar"></i>
+                        </div>
+                        <div class="event-info">
+                            <h3>Coding Workshop for Beginners</h3>
+                            <p>June 16, 2023 • Virtual</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="event-icon">
+                            <i data-lucide="calendar"></i>
+                        </div>
+                        <div class="event-info">
+                            <h3>Tech Leadership Panel</h3>
+                            <p>June 17, 2023 • Virtual</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+
+        <div class="tab-content" id="mentorship">
+            <div class="card">
+                <h2>Find a Mentor</h2>
+                <p>Connect with experienced professionals in your field</p>
+                <ul class="mentor-list">
+                    <li>
+                        <div class="avatar">
+                            <img src="https://placekitten.com/48/48" alt="Mentor Avatar">
+                        </div>
+                        <div class="mentor-info">
+                            <h3>Sarah Johnson - Software Engineer</h3>
+                            <p>10+ years experience • Available for chat</p>
+                        </div>
+                        <button class="connect-button">Connect</button>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="https://placekitten.com/49/49" alt="Mentor Avatar">
+                        </div>
+                        <div class="mentor-info">
+                            <h3>Emily Chen - UX Designer</h3>
+                            <p>8 years experience • Available for chat</p>
+                        </div>
+                        <button class="connect-button">Connect</button>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="https://placekitten.com/50/50" alt="Mentor Avatar">
+                        </div>
+                        <div class="mentor-info">
+                            <h3>Maria Garcia - Data Scientist</h3>
+                            <p>12 years experience • Available for chat</p>
+                        </div>
+                        <button class="connect-button">Connect</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
